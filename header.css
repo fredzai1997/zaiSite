@@ -1,0 +1,438 @@
+header{
+    width: 1536.2px;
+    height: 112px;
+    position: relative;
+    top: -15px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+    
+}
+
+header .header_top
+{
+    width: 1536.2px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.8);
+    z-index: 1;
+    background-color: blue;
+
+}
+header .header_top .first_content
+{
+    
+    list-style-type: none;
+    position:relative;
+    top: -10px;
+    width: 142.02px;
+    height: 26px;
+    border-right: 1px solid rgba(201, 201, 201, 0.8);
+}
+header .header_top .first_content li
+{
+    
+   height: 26px;
+}
+header .header_top .first_content li a
+{
+    
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 3px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+header .second_content
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    height: 26px;
+    margin-right: 20px;
+    list-style-type: none;
+    width: 800px;
+}
+header .second_content .mod:hover
+{
+    
+    border-bottom: 2px black solid;
+}
+header .second_content a
+{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    margin: 15px;
+    position: relative;
+    top: -5px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+header .second_content a i
+{
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+}
+header .second_content a .use 
+{
+   
+    margin-right: 10px;
+}
+header .second_content a .location
+{
+   
+    margin-right: 10px;
+}
+header .header_bottom
+{
+    width: 1536.2px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.8);
+}
+
+
+
+header .logo
+{
+    width: 100px;
+    height: 72px;
+    
+}
+header .logo img
+{
+    width: 70px;
+    height: 20px;
+    position: relative;
+    left: 30%;
+    top:  30%;
+}
+
+header .header_bottom .liens
+{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 0px;
+    height: 72px;
+    margin: auto;
+}
+
+header .header_bottom .liens li:hover
+{
+    border-bottom: 3px black solid;   
+}
+header .header_bottom .liens li a
+{
+    position: relative;
+    top: 34%;
+    text-align:center;
+    margin:20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400px;
+    letter-spacing: .5px;
+    color: black;
+    
+}
+header .barre
+{
+    width: 200px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    border: 0.5px rgb(231, 231, 231) solid;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-left: 35px;
+}
+header .barre:active
+{
+    width: 300px;
+}
+
+header .icon{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    position:relative;
+    left: 30px;
+
+}
+
+::placeholder
+{
+
+    font-size: 14px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    color: rgb(173, 173, 173);
+    padding-left: 5px;
+}
+
+                            /* Section */
+
+section{
+    width: 1536.2px;
+    height: 2000px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+section .section_bloc
+{
+    width: 1416px;
+    height: 1600px;
+    margin-top: 165px;
+    
+}
+
+                            /* Section 1 */
+.section_bloc .section1
+{
+    width: 1416px;
+    height: 400px; 
+    background-image: url(/image/sport.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+   
+}
+@media screen and (max-width:1300px) 
+{
+    .section_bloc .section1 
+{
+    width: -1180px;
+    height: 400px; 
+    background-image: url(/image/sport.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    
+}  
+}
+
+.section_bloc .section1 .content
+{
+    width: 1176px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; 
+    
+}
+.section_bloc .section1 .content h3
+{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 90px;
+    text-align:center;
+    background-color: red;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media screen and (max-width:1300px) 
+{
+    .section_bloc .section1 .content h3
+{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 90px;
+    text-align:center;
+    background-color: blue;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+}  
+}
+.section_bloc .section1 .content p
+{
+    color: rgb(255, 255, 255);
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: .5px;
+    margin-top: -24px;
+}
+.section_bloc .section1 .content button
+{
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 37px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 400px;
+    letter-spacing: .5px;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: rgb(0, 0, 0);
+    border: 1px  rgb(0, 0, 0) solid;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.section_bloc .section1 .content button:hover
+{
+    opacity: 0.7;
+
+}
+
+                                /* Section 2 */
+
+.section_bloc .section2
+{
+    width: 1416px;
+    height: 600px; 
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.section_bloc .section2 .video
+{
+    object-fit: fill;
+    width: 1416px;
+    height: 600px; 
+}
+
+.section_bloc .section3
+{
+    width: 1416px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.section_bloc .section3 h3
+{
+    font-size: 70px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.section_bloc .section3 p
+{
+    font: inherit;
+    font-size:20px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: -45px;
+
+}
+.section_bloc .section3 button
+{
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 400px;
+    letter-spacing: .5px;
+    font-family: 'Montserrat';
+    background-color: rgb(0, 0, 0);
+    border: 1px  rgb(0, 0, 0) solid;
+    border-radius: 25px;
+    margin-top: 20px;
+    
+}
+.section_bloc .section3 button:hover
+{
+    opacity: 0.7;
+    
+}
+
+.section_bloc .section4
+{
+    width: 1416px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.section_bloc .section4 h4
+{
+
+  font-weight: 500;
+    font-size: 24px;
+    line-height: 1.666667;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 12px;
+}
+.section_bloc .section4  .photo
+{
+    list-style-type: none;
+    width: 1376px;
+    height: 340px;
+    margin-top: -8px;
+    display: flex;
+}
+
+.section_bloc .section4  .photo a
+{
+    text-decoration:none;
+    position: relative;
+    left: -10px;
+}
+.section_bloc .section4  .photo a li
+{
+    width: 263.3px;
+    height: 340px;
+    margin-left: 15px;
+    position: relative;
+    left: -45px;
+    
+}
+
+.section_bloc .section4  .photo a li img
+{
+    width: 263.3px;
+    height: 270px;
+      
+}
+.section_bloc .section4 a li img:hover
+{
+    opacity: 0.7;
+}
+.section_bloc .section4  .photo .product_name
+{
+    line-height: 1.2;
+    margin-top: 5px;
+    color: black;
+    font-weight: 800px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    
+}
+.section_bloc .section4  .photo .product_name .ok
+{
+    line-height: 1.5;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    
+}
+.section_bloc .section4  .photo .product_price
+{
+    position: absolute;
+    left: 210px;
+    top: 260px;
+    color: black;
+    font-weight: 800px;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
